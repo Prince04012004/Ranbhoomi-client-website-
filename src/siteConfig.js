@@ -1,0 +1,78 @@
+export const siteConfig = {
+  brand: {
+    name: 'RANBHOOMI',
+    tagline: 'THE COMBAT ARENA',
+    motto: 'Train Hard. Fight Smart. Become Unstoppable.',
+  },
+  nav: [
+    ['Home', '#home'],
+    ['About', '#about'],
+    ['Programs', '#programs'],
+    ['Coaches', '#coaches'],
+    ['Gallery', '#gallery'],
+    ['Testimonials', '#testimonials'],
+    ['Contact', '#contact'],
+  ],
+  whatsapp: {
+    number: '918810420495',
+    label: 'CHAT ON WHATSAPP',
+    message: "Hi, I'm interested in training at RANBHOOMI The Combat Arena. I would like to know more about the training programs and timings.",
+  },
+  contact: {
+    phone: '88104 20495',
+    whatsapp: '88104 20495',
+    location: '669, Sector 37, Faridabad, Haryana 121003',
+  },
+  credibility: [
+    { value: '2x', label: 'International Award Recipient' },
+    { value: 'INTL.', label: 'Black Belt' },
+    { value: 'MMA', label: 'National-Level Referee' },
+    { value: '4+', label: 'Combat Sports Disciplines' },
+  ],
+  programs: [
+    { number: '01', title: 'MMA Training', short: 'MMA', description: 'Complete mixed martial arts training combining striking, grappling and fight fundamentals.' },
+    { number: '02', title: 'Kickboxing', short: 'Striking', description: 'Develop striking technique, footwork, combinations, defense and conditioning.' },
+    { number: '03', title: 'Boxing', short: 'Boxing', description: 'Build boxing fundamentals, movement, combinations, defense and timing.' },
+    { number: '04', title: 'Muay Thai', short: 'Muay Thai', description: 'Train striking techniques, movement, conditioning and combat fundamentals.' },
+    { number: '05', title: 'Strength & Conditioning', short: 'Performance', description: 'Improve athletic performance, strength, endurance, mobility and conditioning.' },
+  ],
+  coaches: [
+    {
+      name: 'Tarun Kumar', role: 'Founder & Head Coach', imageLabel: 'Coach Photo - Tarun Kumar', image: '/img2.png',
+      bio: 'Tarun Kumar is a professional MMA coach and the Founder & Head Coach of RANBHOOMI The Combat Arena. His experience spans multiple combat disciplines including MMA, Kickboxing, Muay Thai and Boxing.',
+      credentials: ['Two-Time International Award Recipient', 'International Black Belt', 'National & International Competition Experience', 'National-Level MMA Referee', 'Professional MMA Coach', 'Kickboxing & Boxing Specialist', 'Strength & Conditioning Specialist'],
+      philosophy: 'Train with discipline. Build real skills. Develop the mindset to perform under pressure.',
+    },
+    {
+      name: 'Lucky Singh', role: 'Head Boxing Coach', imageLabel: 'Coach Photo - Lucky Singh',
+      image: '/img3.png',
+      bio: "Head Boxing Coach at RANBHOOMI - The Combat Arena. A 2-time National Boxing Champion and Certified Personal Trainer with a disciplined, athlete-first coaching approach.",
+      credentials: ['2× National Boxing Champion', 'Multiple State Gold Medalist', 'Certified Personal Trainer', 'Head Boxing Coach, RANBHOOMI The Combat Arena', 'Competitive Boxing Background'],
+      philosophy: 'Develop technically sharp, physically prepared, and mentally disciplined boxers.',
+    },
+    {
+      name: 'Priya Gupta', role: 'Physical Diagnostics & Fitness Test Lead | Sports Fitness Professional', imageLabel: 'Coach Photo - Priya Gupta',
+      image: '/img4.png',
+      bio: "Physical Diagnostics & Fitness Test Lead at RANBHOOMI - The Combat Arena, with professional experience from the Sports Injury Centre, Safdarjung Hospital, New Delhi.",
+      credentials: ['Physical Diagnostics & Fitness Test Lead', 'Experience at Sports Injury Centre, Safdarjung Hospital, New Delhi', 'Sports Fitness Assessment Specialist', 'Athlete Performance & Readiness Evaluation'],
+      philosophy: 'Building stronger, fitter, and better-prepared athletes through structured fitness development.',
+    },
+  ],
+  benefits: ['Professional Coaching', 'Multi-Discipline Training', 'Combat-Sports Experience', 'Strength & Conditioning', 'Technical Development', 'Discipline & Confidence'],
+  gallery: [
+    { category: 'MMA', label: 'MMA Fundamentals', detail: 'Gallery Image - MMA Training', image: '/mmafundamentals.png' },
+    { category: 'Kickboxing', label: 'Pad Work', detail: 'Gallery Image - Pad Work', image: '/padworks.png' },
+    { category: 'Boxing', label: 'Boxing Rounds', detail: 'Gallery Image - Boxing Session', image: '/boxingrounds.png' },
+    { category: 'Training', label: 'Fight Camp', detail: 'Gallery Image - Fight Camp', image: '/fightcamp.png' },
+    { category: 'Events', label: 'Combat Event', detail: 'Gallery Image - Event', image: '/combatevent.png' },
+    { category: 'Training', label: 'Strength Session', detail: 'Gallery Image - Strength Training', image: '/strengthsession.png' },
+  ],
+  testimonials: [{ quote: 'Real student testimonials coming soon.', author: 'RANBHOOMI Community' }],
+  timeline: [
+    'International Award Recognition',
+    'International Black Belt',
+    'National & International Competition Experience',
+    'Experience across MMA, Kickboxing, Muay Thai & Boxing',
+    'National-Level MMA Referee',
+  ],
+}
